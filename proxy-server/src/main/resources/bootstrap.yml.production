@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: proxy-server  cloud:    config:      uri: http://configserver:8088      

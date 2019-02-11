@@ -1,0 +1,16 @@
+version: "3"
+services:
+  configserver:
+    image: jefbeta/config:0.3
+    expose:
+      - "8088"
+    ports:
+      - "8088:8088"
+  discoveryserver:
+    image: jefbeta/discovery:0.4
+    expose:
+      - "8061"
+      - "8080"
+    ports:
+      - "8061:8061"
+      - "8080:8080"

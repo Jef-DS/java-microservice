@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: klant-server  cloud:    config:      uri: http://configserver:8088      
