@@ -27,7 +27,7 @@ public class VerzekeringServerApplication {
 	public Docket swaggerApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-					.apis(RequestHandlerSelectors.basePackage("org.betavzw.klant"))
+					.apis(RequestHandlerSelectors.basePackage("org.betavzw.verzekering"))
 					.paths(PathSelectors.any())
 				.build()
 				.apiInfo(new ApiInfoBuilder().version("1.0").title("Verzekering API").description("Documentation Verzekering API v1.0").build());
